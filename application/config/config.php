@@ -12,9 +12,9 @@ $config['pass_mail'] = 'Muhammad';
 $config['host_mail'] = 'ssl://smtp.gmail.com';
 $config['port_mail'] = '465';
 $config['smtp_crypto'] = 'smtp_crypto';
-$config['whatsapp'] = '08986182128'; // nomor whatsapp format 08xxxxxxxxxx
-$config['whatsappv2'] = '628986182128'; // nomor whatsapp format 628xxxxxxxxxx
-$config['email_contact'] = 'yayanmaulana3@gmail.com';
+$config['whatsapp'] = '082295300504'; // nomor whatsapp format 08xxxxxxxxxx
+$config['whatsappv2'] = '6282295300504'; // nomor whatsapp format 628xxxxxxxxxx
+$config['email_contact'] = 'yama.alfaraz@gmail.com';
 $config['icon_wa'] = TRUE;
 
 /*

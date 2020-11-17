@@ -10,7 +10,7 @@ $rekening = $this->db->get('rekening');
 	<div class="information">
 		<div class="main">
 			<div class="about about-hide">
-				<h2 class="brand-footer"><?= $this->config->item('app_name'); ?></h2>
+				<h2 style="font-family: 'Schoolbell'; font-size:50px;" class="brand-footer"><?= $this->config->item('app_name'); ?></h2>
 				<p>
 					<?= $setting['short_desc']; ?>
 				</p>

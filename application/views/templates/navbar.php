@@ -44,8 +44,6 @@
 			</ul>
 			<br>
 			<div>
-
-
 			</div>
 			<?php if ($this->session->userdata('login')) { ?>
 				<a href="<?= base_url(); ?>cart" class="text-light navbar-cart-inform">
@@ -61,7 +59,6 @@
 				<br>
 			<?php } ?>
 		</div>
-
 		<?php if ($this->session->userdata('login')) { ?>
 			<div>
 				<i class="fa text-light ml-3 icon-search-navbar fa-search"></i>

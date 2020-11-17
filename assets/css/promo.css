@@ -8,7 +8,7 @@ div.wrapper {
 }
 
 div.wrapper div.countdown {
-	background: linear-gradient(to right, #008cd7, #5ec7ff);
+	background: #363F4D;
 	border-radius: 5px;
 	padding: 15px 30px;
 	width: 100%;
@@ -33,7 +33,7 @@ div.wrapper div.main-product div.card {
 }
 
 div.wrapper div.main-product div.card:hover div.card-body p.card-text {
-	color: #008cd7;
+	color: #FFBF2D;
 }
 
 div.wrapper div.main-product div.card div.card-body {
@@ -42,7 +42,7 @@ div.wrapper div.main-product div.card div.card-body {
 }
 
 div.wrapper div.main-product div.card div.card-body p.card-text {
-	color: #333333;
+	color: #555555;
 	font-size: 15px;
 	line-height: 22px;
 	overflow: hidden;
@@ -53,14 +53,14 @@ div.wrapper div.main-product div.card div.card-body p.card-text {
 }
 
 div.wrapper div.main-product div.card div.card-body p.oldPrice {
-	color: #777777;
+	color: #999999;
 	font-size: 14px;
 	margin-top: 5px;
 	text-decoration: line-through;
 }
 
 div.wrapper div.main-product div.card div.card-body p.newPrice {
-	color: #2c598a;
+	color: #FFBF2D;
 	font-family: "Nunito";
 	font-size: 15px;
 	font-weight: 600;

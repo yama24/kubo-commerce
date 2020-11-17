@@ -17,7 +17,7 @@ class Home extends CI_Controller
 
 	public function index()
 	{
-		$data['title'] =  $this->config->item('app_name');
+		$data['title'] =  $this->config->item('app_name') . " - Kuy Belanja Online!";
 		$data['css'] = 'style';
 		$data['responsive'] = 'style-responsive';
 		$data['setting'] = $this->Settings_model->getSetting();

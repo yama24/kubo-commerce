@@ -8,6 +8,7 @@ $rekening = $this->db->get('rekening');
 ?>
 <?php echo $this->session->flashdata('subscriber'); ?>
 <footer>
+	<!-- <div class="subscribe" style="background-image: url(/assets/images/bg.png); background-size:cover; background-position:center;"> -->
 	<div class="subscribe">
 		<div class="main">
 			<div class="text">

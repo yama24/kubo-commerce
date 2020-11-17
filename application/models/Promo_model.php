@@ -18,7 +18,7 @@ class Promo_model extends CI_Model {
 
     public function getPromoLimit(){
         $this->db->where('promo_price != 0 AND publish = 1');
-        $this->db->limit('6');
+        // $this->db->limit('6');
         return $this->db->get('products');
     }
 

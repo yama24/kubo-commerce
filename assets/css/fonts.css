@@ -1,2 +1,127 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap");
+/* open-sans-regular - latin */
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/assets/fonts/open-sans-v18-latin-regular.eot');
+	/* IE9 Compat Modes */
+	src: local('Open Sans Regular'), local('OpenSans-Regular'), url('/assets/fonts/open-sans-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('/assets/fonts/open-sans-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('/assets/fonts/open-sans-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+	url('/assets/fonts/open-sans-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('/assets/fonts/open-sans-v18-latin-regular.svg#OpenSans') format('svg');
+	/* Legacy iOS */
+}
+
+/* open-sans-600 - latin */
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	src: url('/assets/fonts/open-sans-v18-latin-600.eot');
+	/* IE9 Compat Modes */
+	src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url('/assets/fonts/open-sans-v18-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('/assets/fonts/open-sans-v18-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+	url('/assets/fonts/open-sans-v18-latin-600.woff') format('woff'), /* Modern Browsers */
+	url('/assets/fonts/open-sans-v18-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('/assets/fonts/open-sans-v18-latin-600.svg#OpenSans') format('svg');
+	/* Legacy iOS */
+}
+
+/* open-sans-700 - latin */
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/assets/fonts/open-sans-v18-latin-700.eot');
+	/* IE9 Compat Modes */
+	src: local('Open Sans Bold'), local('OpenSans-Bold'), url('/assets/fonts/open-sans-v18-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('/assets/fonts/open-sans-v18-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+	url('/assets/fonts/open-sans-v18-latin-700.woff') format('woff'), /* Modern Browsers */
+	url('/assets/fonts/open-sans-v18-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('/assets/fonts/open-sans-v18-latin-700.svg#OpenSans') format('svg');
+	/* Legacy iOS */
+}
+
+/* open-sans-800 - latin */
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 800;
+	src: url('/assets/fonts/open-sans-v18-latin-800.eot');
+	/* IE9 Compat Modes */
+	src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url('/assets/fonts/open-sans-v18-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('/assets/fonts/open-sans-v18-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+	url('/assets/fonts/open-sans-v18-latin-800.woff') format('woff'), /* Modern Browsers */
+	url('/assets/fonts/open-sans-v18-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('/assets/fonts/open-sans-v18-latin-800.svg#OpenSans') format('svg');
+	/* Legacy iOS */
+}
+
+/* nunito-600 - latin */
+
+@font-face {
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 600;
+	src: url('/assets/fonts/nunito-v14-latin-600.eot');
+	/* IE9 Compat Modes */
+	src: local('Nunito SemiBold'), local('Nunito-SemiBold'), url('/assets/fonts/nunito-v14-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('/assets/fonts/nunito-v14-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+	url('/assets/fonts/nunito-v14-latin-600.woff') format('woff'), /* Modern Browsers */
+	url('/assets/fonts/nunito-v14-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('/assets/fonts/nunito-v14-latin-600.svg#Nunito') format('svg');
+	/* Legacy iOS */
+}
+
+/* nunito-700 - latin */
+
+@font-face {
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/assets/fonts/nunito-v14-latin-700.eot');
+	/* IE9 Compat Modes */
+	src: local('Nunito Bold'), local('Nunito-Bold'), url('/assets/fonts/nunito-v14-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('/assets/fonts/nunito-v14-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+	url('/assets/fonts/nunito-v14-latin-700.woff') format('woff'), /* Modern Browsers */
+	url('/assets/fonts/nunito-v14-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('/assets/fonts/nunito-v14-latin-700.svg#Nunito') format('svg');
+	/* Legacy iOS */
+}
+
+/* schoolbell-regular - latin */
+
+@font-face {
+	font-family: 'Schoolbell';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/assets/fonts/schoolbell-v11-latin-regular.eot');
+	/* IE9 Compat Modes */
+	src: local('Schoolbell Regular'), local('Schoolbell-Regular'), url('/assets/fonts/schoolbell-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('/assets/fonts/schoolbell-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('/assets/fonts/schoolbell-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+	url('/assets/fonts/schoolbell-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('/assets/fonts/schoolbell-v11-latin-regular.svg#Schoolbell') format('svg');
+	/* Legacy iOS */
+}
+
+/* boogaloo-regular - latin */
+
+@font-face {
+	font-family: 'Boogaloo';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/assets/fonts/boogaloo-v12-latin-regular.eot');
+	/* IE9 Compat Modes */
+	src: local('Boogaloo Regular'), local('Boogaloo-Regular'), url('/assets/fonts/boogaloo-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('/assets/fonts/boogaloo-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('/assets/fonts/boogaloo-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+	url('/assets/fonts/boogaloo-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('/assets/fonts/boogaloo-v12-latin-regular.svg#Boogaloo') format('svg');
+	/* Legacy iOS */
+}

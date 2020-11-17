@@ -44,48 +44,6 @@
 	<meta property="twitter:description" content="Temukan barang impianmu disini, dengan kualitas terbaik, harga menarik dan pilihan yang fantastik!">
 	<meta property="twitter:image" content="<?php echo base_url() ?>meta.png">
 	<meta property="twitter:keyword" content="barang impor adalah,  barang impor artinya,  barang impor indonesia,  barang import batam,  barang import jepang,  barang import murah,  barang import terlaris,  barang import thailand,  barang importir.org,  buku anak adalah,  buku anak akuntansi,  buku anak anak,  buku anak anak islami,  buku anak anak pdf,  buku anak anak revolusi,  buku anak anak revolusi pdf,  buku anak autis,  buku anak balita,  buku anak bayi,  buku anak berkebutuhan khusus,  buku anak islam suka membaca,  buku anak islami,  buku anak kuliah,  buku anak paud,  buku anak sd,  buku anak singkong,  buku anak tk,  buku bantal edukasi,  buku buku parenting,  buku cerita edukasi anak,  buku edukasi 2 bahasa,  buku edukasi anak,  buku edukasi anak 1 tahun,  buku edukasi anak 4 tahun,  buku edukasi anak 5 tahun,  buku edukasi anak balita,  buku edukasi anak muslim,  buku edukasi anak sd,  buku edukasi anak tk,  buku edukasi bayi,  buku edukasi biologi,  buku edukasi bisnis,  buku edukasi com,  buku edukasi matematika cepat,  buku edukasi untuk anak 2 tahun,  buku edukasi untuk balita,  buku edukasi untuk bayi,  buku edukasi.com/download,  buku edukasi.com/tryout,  buku parenting adalah,  buku parenting ala rasulullah,  buku parenting anak,  buku parenting anak islam,  buku parenting anak pdf,  buku parenting andien,  buku parenting ayah,  buku parenting ayah edy,  buku parenting bayi,  buku parenting best seller,  buku parenting bringing up bebe,  buku parenting budi ashari,  buku parenting cara mendidik anak,  buku parenting cara nabi mendidik anak,  buku parenting elly risman,  buku parenting elly risman pdf,  buku parenting islam pdf,  buku parenting nabawiyah,  buku parenting nabawiyah budi ashari,  buku parenting paud,  buku parenting pdf,  buku parenting porte bebe,  buku parenting terbaik,  buku sentuhan parenting budi ashari,  buku seri edukasi britannica,  contoh mainan edukasi,  mainan edukasi 1 tahun,  mainan edukasi anak,  mainan edukasi anak 1 tahun,  mainan edukasi anak 1 tahun buatan sendiri,  mainan edukasi anak 2 tahun,  mainan edukasi anak 3 tahun,  mainan edukasi anak 5 tahun,  mainan edukasi anak 6 tahun,  mainan edukasi anak 7 tahun,  mainan edukasi anak cowok,  mainan edukasi bayi,  mainan edukasi bayi 1 tahun,  mainan edukasi bayi 10 bulan,  mainan edukasi bayi 3 bulan,  mainan edukasi bayi 6 bulan,  mainan edukasi bayi 7 bulan,  mainan edukasi bayi 8 bulan,  mainan edukasi bayi 9 bulan,  mainan edukasi dari barang bekas,  mainan edukasi dari kardus,  mainan edukasi dari kayu,  mainan edukasi sliding car,  mainan edukasi yang cocok untuk anak 1 tahun,  mainan edukatif anak cowok,  mainan edukatif cirebon,  mainan edukatif seven crayon,  mainan-anak-edukatif.com kota malang jawa timur,  referensi buku parenting,  rekomendasi buku parenting bayi, ">
-
-	<style>
-		/* schoolbell-regular - latin */
-		@font-face {
-			font-family: 'Schoolbell';
-			font-style: normal;
-			font-weight: 400;
-			src: url('/assets/fonts/schoolbell-v11-latin-regular.eot');
-			/* IE9 Compat Modes */
-			src: local('Schoolbell Regular'), local('Schoolbell-Regular'),
-				url('/assets/fonts/schoolbell-v11-latin-regular.eot?#iefix') format('embedded-opentype'),
-				/* IE6-IE8 */
-				url('/assets/fonts/schoolbell-v11-latin-regular.woff2') format('woff2'),
-				/* Super Modern Browsers */
-				url('/assets/fonts/schoolbell-v11-latin-regular.woff') format('woff'),
-				/* Modern Browsers */
-				url('/assets/fonts/schoolbell-v11-latin-regular.ttf') format('truetype'),
-				/* Safari, Android, iOS */
-				url('/assets/fonts/schoolbell-v11-latin-regular.svg#Schoolbell') format('svg');
-			/* Legacy iOS */
-		}
-
-		/* boogaloo-regular - latin */
-		@font-face {
-			font-family: 'Boogaloo';
-			font-style: normal;
-			font-weight: 400;
-			src: url('/assets/fonts/boogaloo-v12-latin-regular.eot');
-			/* IE9 Compat Modes */
-			src: local('Boogaloo Regular'), local('Boogaloo-Regular'),
-				url('/assets/fonts/boogaloo-v12-latin-regular.eot?#iefix') format('embedded-opentype'),
-				/* IE6-IE8 */
-				url('/assets/fonts/boogaloo-v12-latin-regular.woff2') format('woff2'),
-				/* Super Modern Browsers */
-				url('/assets/fonts/boogaloo-v12-latin-regular.woff') format('woff'),
-				/* Modern Browsers */
-				url('/assets/fonts/boogaloo-v12-latin-regular.ttf') format('truetype'),
-				/* Safari, Android, iOS */
-				url('/assets/fonts/boogaloo-v12-latin-regular.svg#Boogaloo') format('svg');
-			/* Legacy iOS */
-		}
-	</style>
 </head>
 
 <body>

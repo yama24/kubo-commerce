@@ -7,14 +7,14 @@ date_default_timezone_set("Asia/Jakarta");
 $config['app_name'] = 'Kubo';
 $config['navbar_color'] = "#1A7B86 !important";
 $config['api_rajaongkir'] = 'cda97cb5968f78c4fdbcff228c694619';
-$config['mail_account'] = 'yayanmaulana3@gmail.com';
+$config['mail_account'] = 'admin@kubo.my.id';
 $config['pass_mail'] = 'Muhammad';
-$config['host_mail'] = 'ssl://smtp.gmail.com';
+$config['host_mail'] = 'srv50.niagahoster.com';
 $config['port_mail'] = '465';
-$config['smtp_crypto'] = 'smtp_crypto';
+$config['smtp_crypto'] = 'ssl';
 $config['whatsapp'] = '082295300504'; // nomor whatsapp format 08xxxxxxxxxx
 $config['whatsappv2'] = '6282295300504'; // nomor whatsapp format 628xxxxxxxxxx
-$config['email_contact'] = 'yama.alfaraz@gmail.com';
+$config['email_contact'] = 'contact@kubo.my.id';
 $config['icon_wa'] = TRUE;
 
 /*

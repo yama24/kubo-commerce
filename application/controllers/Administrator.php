@@ -333,6 +333,23 @@ class Administrator extends CI_Controller
         </script>");
 		redirect(base_url() . 'administrator/order/' . $id);
 	}
+	
+	public function finish_order()
+	{
+		$invoice = $_GET['invoice'];
+		$resi = $_GET['resi'];
+		$this->db->set('status', 4);
+		$this->db->where('invoice_code', $invoice);
+		$this->db->where('resi', $resi);
+		$this->db->update('invoice');
+		$this->session->set_flashdata('success', "<script>
+            swal({
+            text: 'Selamat, transaksi telah selesai',
+            icon: 'success'
+            });
+        </script>");
+		redirect(base_url() . 'administrator/order/' . $invoice);
+	}
 
 	public function delete_order($id)
 	{

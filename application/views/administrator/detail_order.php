@@ -59,17 +59,40 @@ if ($err) {
 <!-- Begin Page Content -->
 <div class="container-fluid">
 	<!-- Page Heading -->
-	<h1 class="h3 mb-2 text-gray-800 mb-2">Order ID = <?= $invoice['invoice_code']; ?></h1>
-	<?php if ($invoice['send'] == 1) { ?>
+	<h1 class="h3 mb-2 text-gray-800 mb-2">
+		Order ID = <b><?= $invoice['invoice_code']; ?></b> <br>
+		<?php if ($invoice['courier'] == "cod") { ?>
+			<?php if ($invoice['status'] != 4) { ?>
+				<small class="text-secondary"><b>Cash on Delivery</b></small>
+			<?php } else if ($invoice['status'] == 4) { ?>
+				<small class="text-success"><b>Transaksi Selesai</b></small>
+			<?php } ?>
+		<?php } else { ?>
+			<?php if ($invoice['status'] == 0) { ?>
+				<small class="text-danger"><b>Belum Bayar</b></small>
+			<?php } else if ($invoice['status'] == 1) { ?>
+				<small class="text-warning"><b>Sudah Bayar / Belum Diproses</b></small>
+			<?php } else if ($invoice['status'] == 2) { ?>
+				<small class="text-info"><b>Sedang Diproses / Belum Dikirim</b></small>
+			<?php } else if ($invoice['status'] == 3) { ?>
+				<small class="text-primary"><b>Sedang Dikirim</b></small>
+			<?php } else if ($invoice['status'] == 4) { ?>
+				<small class="text-success"><b>Transaksi Selesai</b></small>
+			<?php } ?>
+		<?php } ?>
+	</h1>
+	<!-- <?php if ($invoice['send'] == 1) { ?>
 		<h3 class="text-success">Transaksi Selesai</h3>
-	<?php } ?>
+	<?php } ?> -->
 
 	<!-- DataTales Example -->
 	<div class="card shadow mb-4">
 		<div class="card-header py-3">
 			<a href="<?= base_url(); ?>administrator/orders" class="btn btn-sm btn-primary"><i class="fa fa-chevron-left"></i> Kembali</a>
-			<a href="<?= base_url(); ?>administrator/print_shipping/<?= $invoice['invoice_code']; ?>" class="btn btn-warning btn-sm" target="_blank">Shipping Label</a>
-			<a href="<?= base_url(); ?>administrator/print_detail_order/<?= $invoice['invoice_code']; ?>" class="btn btn-info btn-sm" target="_blank">Invoice</a>
+			<?php if ($invoice['status'] == 2) {?>
+				<a href="<?= base_url(); ?>administrator/print_shipping/<?= $invoice['invoice_code']; ?>" class="btn btn-warning btn-sm" target="_blank">Shipping Label</a>
+				<a href="<?= base_url(); ?>administrator/print_detail_order/<?= $invoice['invoice_code']; ?>" class="btn btn-info btn-sm" target="_blank">Invoice</a>
+			<?php } ?>
 			<!-- class biar kanan float-right -->
 		</div>
 		<div class="card-body">
@@ -221,12 +244,14 @@ if ($err) {
 				<?php } ?>
 			<?php } else { ?>
 				<?php if ($invoice['status'] == 0) { ?>
-					<a href="<?= base_url(); ?>administrator/confirm_proof/<?= $invoice['invoice_code']; ?>?type=order" onclick="return confirm('Yakin pembeli sudah melakukan pembayaran?');" class="btn btn-info btn-sm">Sudah Bayar</a>
+					<a href="<?= base_url(); ?>administrator/confirm_proof/<?= $invoice['invoice_code']; ?>?type=order" onclick="return confirm('Yakin pembeli sudah melakukan pembayaran?');" class="btn btn-info btn-sm">Verifikasi Pembayaran</a>
 				<?php } else if ($invoice['status'] == 1) { ?>
 					<a href="<?= base_url(); ?>administrator/order/<?= $invoice['invoice_code']; ?>/process" onclick="return confirm('Yakin ingin mengubah status pesanan? Pembeli akan mendapatkan email notifikasi jika pesanan sedang diproses.');" class="btn btn-info btn-sm">Proses Pesanan</a>
 				<?php } else if ($invoice['status'] == 2) { ?>
-					<button class="btn btn-success btn-sm" data-toggle="modal" data-target="#sendingOrder">Pesanan Dikirim</button>
+					<button class="btn btn-success btn-sm" data-toggle="modal" data-target="#sendingOrder">Kirim Pesanan</button>
 					<a href="<?= base_url(); ?>administrator/order/<?= $invoice['invoice_code']; ?>/sending"></a>
+				<?php } else if ($invoice['status'] == 3) { ?>
+					<a href="<?= base_url(); ?>administrator/finish_order?invoice=<?= $invoice['invoice_code'] ?>&resi=<?= $invoice['resi'] ?>" onclick="return confirm('Pesanan sudah sampai? Status pesanan akan menjadi selesai.');" class="btn btn-secondary btn-sm">Selesai</a>
 				<?php } ?>
 			<?php } ?>
 		</div>

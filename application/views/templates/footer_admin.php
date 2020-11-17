@@ -43,10 +43,19 @@
 
 <!-- Page level custom scripts -->
 <script src="<?= base_url(); ?>assets/js/demo/datatables-demo.js"></script>
+<!-- Summernote -->
+<script src="<?= base_url(); ?>assets/summernote/summernote-bs4.min.js"></script>
+<script>
+  $(function () {
+    // Summernote
+    $('#description').summernote()
+  })
+</script>
+
 
 <script>
 	ClassicEditor
-		.create(document.querySelector('#description'))
+		.create(document.querySelector('#descriptions'))
 		.then(editor => {
 			console.log(editor);
 		})

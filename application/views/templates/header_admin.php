@@ -23,6 +23,7 @@
 
 	<link rel="stylesheet" href="<?= base_url(); ?>assets/select2-4.0.6-rc.1/dist/css/select2.min.css">
 	<script src="<?= base_url(); ?>assets/js/ckeditor.js"></script>
+	<link rel="stylesheet" href="<?= base_url(); ?>assets/summernote/summernote-bs4.css">
 
 	<link rel="stylesheet" media="screen" type="text/css" href="<?= base_url(); ?>assets/css/colorpicker.css" />
 
